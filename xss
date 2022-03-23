@@ -7,9 +7,12 @@ if (document.getElementById("specialLink") == null) {
     a.id   = "specialLink";
     b.rel  = "stylesheet";
     b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
+    c.rel  = "stylesheet";
+    c.href = "https://smiddy007.github.io/xssCss";
     
     document.head.appendChild(a);
     document.head.appendChild(b);
+    document.head.appendChild(c);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
