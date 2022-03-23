@@ -19,10 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
         div.innerHTML   = 'smiddy was here';
         div.display     = "none";
         document.body.appendChild(div);
-        
+       
+       /*
         var div2        = document.createElement('div');
         div2.class      = "realmadoverlay";
         div2.innerHTML  = "<div class="realmadglitch" data-text="smiddy">realmadsci</div><div class="realmadglitch" data-text="was">was</div><div class="realmadglitch" data-text="here">here</div>";
         document.body.appendChild("div2");
+        */
     }
 }
