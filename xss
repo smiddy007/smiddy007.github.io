@@ -1,4 +1,4 @@
-if (document.getElementById("specialLink") == null) {
+//if (document.getElementById("specialLink") == null) {
     var a  = document.createElement('link');
     var b  = document.createElement('link');
 
@@ -10,7 +10,7 @@ if (document.getElementById("specialLink") == null) {
 
     document.head.appendChild(a);
     document.head.appendChild(b);
-}
+//}
 
 document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("hiddenMessage") == null) {
