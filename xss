@@ -13,32 +13,16 @@ if (document.getElementById("specialLink") == null) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var elements = document.getElementsByClassName("specialName");
-    if (elements.length != 1) {
-            var div = document.createElement('div');
-            div.class = 'specialMessage';
-            div.innerHTML = 'smiddy was here';
- 
-            document.body.appendChild(div);
-        }
-    }, false);
-
-/*
-    var myDiv = document.createElement('div');
-    myDiv.class = 'realmadoverlay';
-    document.getElementById("main").appendChild(myDiv);
-*/
-    /*
-    var myDiv = document.createElement('div');
-    myDiv.class = "realmadoverlay";
-    document.body.append("myDiv")
-    */
-
-    /*
-    document.getElementsByClassName('realmadoverlay').innerHTML =
-        "<div class="realmadglitch" data-text="smiddy">realmadsci</div>
-        <div class="realmadglitch" data-text="was">was</div>
-        <div class="realmadglitch" data-text="here">here</div>"
-
-    document.body.appendChild(myDiv)
-    */   
+    if (document.getElementById("hiddenMessage") == null) {
+        var div         = document.createElement('div');
+        div.id          = 'hiddenMessage';
+        div.innerHTML   = 'smiddy was here';
+        div.display     = "none";
+        document.body.appendChild(div);
+        
+        var div2        = document.createElement('div');
+        div2.class      = "realmadoverlay";
+        div2.innerHTML  = "<div class="realmadglitch" data-text="smiddy">realmadsci</div><div class="realmadglitch" data-text="was">was</div><div class="realmadglitch" data-text="here">here</div>";
+        document.body.appendChild("div2");
+    }
+}
