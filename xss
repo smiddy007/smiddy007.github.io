@@ -1,6 +1,7 @@
 if (document.getElementById("specialLink") == null) {
     var a  = document.createElement('link');
     var b  = document.createElement('link');
+    var c  = document.createElement('link');
 
     a.rel  = "stylesheet";
     a.href = "https://realmadsci.github.io/j/glitch.css";
