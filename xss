@@ -11,7 +11,7 @@ document.head.appendChild(b);
 
 var myDiv = document.createElement('div');
 myDiv.class = "realmadoverlay";
-document.body.appendChild(myDiv)
+document.body.append("myDiv")
 
 /*
 document.getElementsByClassName('realmadoverlay').innerHTML =
