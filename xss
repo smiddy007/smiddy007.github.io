@@ -1,2 +1,12 @@
-$('head').append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
-$('head').append('<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">');
+document.head.append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
+document.head.append('<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">');
+
+var myDiv = document.createElement('div');
+myDiv.class = "realmadoverlay";
+
+document.getElementsByClassName('realmadoverlay').innerHTML =
+    "<div class="realmadglitch" data-text="realmadsci">realmadsci</div>
+    <div class="realmadglitch" data-text="was">was</div>
+    <div class="realmadglitch" data-text="here">here</div>"
+
+document.body.appendChild(myDiv)
