@@ -1,6 +1,6 @@
-//document.head.append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
+document.head.append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
 
-document.getElementsByTagName('head')[0].append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
+//document.getElementsByTagName('head')[0].append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
 
 /*
 document.head.append('<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">');
