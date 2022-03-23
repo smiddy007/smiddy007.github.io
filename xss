@@ -1,4 +1,4 @@
-var elements = document.getElementsByClassName('myDiv');
+var elements = document.getElementsByClassName('realmadoverlay');
 if(elements.item(0) === null){
 
     var a  = document.createElement('link');
