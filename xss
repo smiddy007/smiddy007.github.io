@@ -1,19 +1,15 @@
 if (document.getElementById("specialLink") == null) {
     var a  = document.createElement('link');
     var b  = document.createElement('link');
-    var c  = document.createElement('link');
 
     a.rel  = "stylesheet";
     a.href = "https://realmadsci.github.io/j/glitch.css";
     a.id   = "specialLink";
     b.rel  = "stylesheet";
     b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
-    c.rel  = "stylesheet";
-    c.href = "https://smiddy007.github.io/xssCss";
     
     document.head.appendChild(a);
     document.head.appendChild(b);
-    document.head.appendChild(c);
 }
 
 
