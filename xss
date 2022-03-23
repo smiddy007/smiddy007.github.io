@@ -16,6 +16,7 @@ if (document.getElementById("specialLink") == null) {
     document.head.appendChild(c);
 }
 
+
 document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("specialMessage") == null) {
         var div         = document.createElement('div');
