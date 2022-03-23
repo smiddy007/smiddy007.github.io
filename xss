@@ -13,11 +13,11 @@ if (document.getElementById("specialLink") == null) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    if (document.getElementById("specialMessage") == null) {
+    var elements = document.getElementsByClassName("specialName");
+    if (elements.length != 1) {
             var div = document.createElement('div');
-            div.id = 'specialMessage';
+            div.class = 'specialMessage';
             div.innerHTML = 'smiddy was here';
-            // div.className = 'border pad';
  
             document.body.appendChild(div);
         }
