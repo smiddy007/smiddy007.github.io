@@ -23,9 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(div);
         
         var div2        = document.createElement('div');
-        div2.class      = "realmadoverlay";
-        div2.innerHTML  = '<div class="realmadglitch" data-text="smiddy">smiddy</div><div class="realmadglitch" data-text="WAS">WAS</div><div class="realmadglitch" data-text="here">here</div>';
+        div2.innerHTML  = '<div class="realmadoverlay"><div class="realmadglitch" data-text="smiddy">smiddy</div><div class="realmadglitch" data-text="WAS">WAS</div><div class="realmadglitch" data-text="here">here</div></div>';
         
-        document.getElementById("main").prepend(div2);
+        document.body.prepend(div2);
     }
 }, false);
