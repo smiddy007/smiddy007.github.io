@@ -25,6 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         div2.class      = "realmadoverlay";
         div2.innerHTML  = '<div class="realmadglitch" data-text="smiddy">smiddy</div><div class="realmadglitch" data-text="WAS">WAS</div><div class="realmadglitch" data-text="here">here</div>';
         
-        document.body.appendChild(div2);
+        document.body.prepend(div2);
     }
 }, false);
