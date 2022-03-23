@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("specialMessage") == null) {
         var div         = document.createElement('div');
         div.id          = 'specialMessage';
-        div.display     = "none";
+        div.style       = 'display: none;';
         div.innerHTML   = 'smiddy was here';
         
         document.body.appendChild(div);
