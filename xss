@@ -1,10 +1,17 @@
-document.head.append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
+var a  = document.createElement('link');
+var b  = document.createElement('link');
+
+a.rel  = "stylesheet";
+a.href = "https://realmadsci.github.io/j/glitch.css";
+b.rel  = "stylesheet";
+b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
+
+document.head.appendChild(a);
+document.head.appendChild(b);
 
 //document.getElementsByTagName('head')[0].append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
 
 /*
-document.head.append('<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">');
-
 var myDiv = document.createElement('div');
 myDiv.class = "realmadoverlay";
 
