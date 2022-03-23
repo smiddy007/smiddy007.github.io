@@ -1,13 +1,16 @@
+if (document.getElementById("specialLink") == null) {
     var a  = document.createElement('link');
     var b  = document.createElement('link');
 
     a.rel  = "stylesheet";
     a.href = "https://realmadsci.github.io/j/glitch.css";
+    a.id   = "specialLink";
     b.rel  = "stylesheet";
     b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
 
     document.head.appendChild(a);
     document.head.appendChild(b);
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("benjamin") == null) {
