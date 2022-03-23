@@ -14,7 +14,7 @@ if(elements.item(0) === null){
 
 
     var myDiv = document.createElement('div');
-    myDiv.class = "realmadoverlay";
+    myDiv.id = "realmadoverlay";
     document.getElementById("main").appendChild(myDiv);
 
     /*
