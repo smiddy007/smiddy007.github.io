@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
+        var a  = document.createElement('link');
+    var b  = document.createElement('link');
+
+    a.rel  = "stylesheet";
+    a.href = "https://realmadsci.github.io/j/glitch.css";
+    b.rel  = "stylesheet";
+    b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
+
+    document.head.appendChild(a);
+    document.head.appendChild(b);
+
         var div = document.createElement('div');
         div.id = 'benjamin';
         div.innerHTML = 'Hi there!';
@@ -7,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(div);
     }, false);
 
+/*
 var elements = document.getElementsByClassName('realmadoverlay');
 if(elements.item(0) === null){
 
@@ -24,7 +36,7 @@ if(elements.item(0) === null){
     var myDiv = document.createElement('div');
     myDiv.class = 'realmadoverlay';
     document.getElementById("main").appendChild(myDiv);
-
+*/
     /*
     var myDiv = document.createElement('div');
     myDiv.class = "realmadoverlay";
