@@ -9,9 +9,6 @@ b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
 document.head.appendChild(a);
 document.head.appendChild(b);
 
-//document.getElementsByTagName('head')[0].append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
-
-/*
 var myDiv = document.createElement('div');
 myDiv.class = "realmadoverlay";
 
@@ -21,4 +18,3 @@ document.getElementsByClassName('realmadoverlay').innerHTML =
     <div class="realmadglitch" data-text="here">here</div>"
 
 document.body.appendChild(myDiv)
-*/
