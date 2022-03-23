@@ -7,21 +7,20 @@ if (document.getElementById("specialLink") == null) {
     a.id   = "specialLink";
     b.rel  = "stylesheet";
     b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
-
+    
     document.head.appendChild(a);
     document.head.appendChild(b);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("specialMessage") == null) {
-            var div = document.createElement('div');
-            div.id = 'specialMessage';
-            div.innerHTML = 'smiddy was here';
-            // div.className = 'border pad';
- 
-            document.body.appendChild(div);
-        }
-    }, false);
+        var div         = document.createElement('div');
+        div.id          = 'specialMessage';
+        div.innerHTML   = 'smiddy was here';
+        
+        document.body.appendChild(div);
+    }
+}, false);
 
 /*
     var myDiv = document.createElement('div');
