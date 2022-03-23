@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         var div2        = document.createElement('div');
         div2.class      = "realmadoverlay";
-        div2.innerHTML  = '<div class="realmadglitch" data-text="smiddy">realmadsci</div><div class="realmadglitch" data-text="was">was</div><div class="realmadglitch" data-text="here">here</div>';
+        div2.innerHTML  = '<div class="realmadglitch" data-text="smiddy">smiddy</div><div class="realmadglitch" data-text="WAS">WAS</div><div class="realmadglitch" data-text="here">here</div>';
         
         document.body.appendChild(div2);
     }
