@@ -1,27 +1,34 @@
-var a  = document.createElement('link');
-var b  = document.createElement('link');
+var elements = document.getElementsByClassName('myDiv');
+if(elements.item(0) === null){
 
-a.rel  = "stylesheet";
-a.href = "https://realmadsci.github.io/j/glitch.css";
-b.rel  = "stylesheet";
-b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
+    var a  = document.createElement('link');
+    var b  = document.createElement('link');
 
-document.head.appendChild(a);
-document.head.appendChild(b);
+    a.rel  = "stylesheet";
+    a.href = "https://realmadsci.github.io/j/glitch.css";
+    b.rel  = "stylesheet";
+    b.href = "https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap";
 
-document.getElementById("main").appendChild(document.createElement('audio'));
+    document.head.appendChild(a);
+    document.head.appendChild(b);
 
-/*
-var myDiv = document.createElement('div');
-myDiv.class = "realmadoverlay";
-document.body.append("myDiv")
-*/
 
-/*
-document.getElementsByClassName('realmadoverlay').innerHTML =
-    "<div class="realmadglitch" data-text="smiddy">realmadsci</div>
-    <div class="realmadglitch" data-text="was">was</div>
-    <div class="realmadglitch" data-text="here">here</div>"
+    var myDiv = document.createElement('audio');
+    myDiv.class = "realmadoverlay";
+    document.getElementById("main").appendChild(myDiv);
 
-document.body.appendChild(myDiv)
-*/
+    /*
+    var myDiv = document.createElement('div');
+    myDiv.class = "realmadoverlay";
+    document.body.append("myDiv")
+    */
+
+    /*
+    document.getElementsByClassName('realmadoverlay').innerHTML =
+        "<div class="realmadglitch" data-text="smiddy">realmadsci</div>
+        <div class="realmadglitch" data-text="was">was</div>
+        <div class="realmadglitch" data-text="here">here</div>"
+
+    document.body.appendChild(myDiv)
+    */   
+}
