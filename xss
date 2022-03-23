@@ -1,0 +1,2 @@
+$('head').append('<link rel="stylesheet" href="https://realmadsci.github.io/j/glitch.css">');
+$('head').append('<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">');
