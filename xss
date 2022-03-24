@@ -1,4 +1,4 @@
-if (document.getElementById("specialLink") == null) {
+//if (document.getElementById("specialLink") == null) {
     var a  = document.createElement('link');
     var b  = document.createElement('link');
 
@@ -10,11 +10,11 @@ if (document.getElementById("specialLink") == null) {
     
     document.head.appendChild(a);
     document.head.appendChild(b);
-}
+//}
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    if (document.getElementById("specialMessage") == null) {
+    //if (document.getElementById("specialMessage") == null) {
         var div         = document.createElement('div');
         div.id          = 'specialMessage';
         div.style       = 'display: none;';
@@ -26,5 +26,5 @@ document.addEventListener('DOMContentLoaded', function() {
         div2.innerHTML  = '<div class="realmadoverlay"><div class="realmadglitch" data-text="smiddy">smiddy</div><div class="realmadglitch" data-text="WAS">WAS</div><div class="realmadglitch" data-text="here">here</div></div>';
         
         document.body.prepend(div2);
-    }
+    //}
 }, false);
