@@ -29,4 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 }, false);
 
-document.getElementsByClassName("list-title")[0].innerHTML = " Search results for <em> HACKED </em>"
+document.getElementsByClassName("list-title")[0].innerHTML = " Search results for <em style='color:red;'> YOU HAVE BEEN HACKED!!! </em>"
