@@ -28,3 +28,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.prepend(div2);
     }
 }, false);
+
+document.getElementsByClassName("list-title")[0].innerHTML = " Search results for <em> HACKED </em>"
