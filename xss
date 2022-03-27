@@ -31,8 +31,52 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementsByClassName("list-title")[0].innerHTML = " Search results for <em style='color:red;font-size: 40px;'> YOU HAVE BEEN HACKED!!! </em>"
 
-var i = 1;
-for (a in document.getElementsByClassName("pagination-numerical-list-item")) {
-    a.innerHTML = "<a href='https://www.gamesradar.com/search/page/2/?searchTerm=' class='pagination-numerical-list-item-link' data-component-tracked='2'>" + i + "</a>";
-    ++i;
-}
+document.getElementsByClassName("pagination-numerical-list")[0].innerHTML = 
+"<li class="pagination-numerical-list-item current-page">
+1
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/2/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+2
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/3/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+3
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/4/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+4
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/5/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+5
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/6/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+6
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/7/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+7
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/8/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+8
+</a>
+</li>
+<li class="pagination-numerical-list-item">
+<a href="https://www.gamesradar.com/search/page/9/?searchTerm=" class="pagination-numerical-list-item-link" data-component-tracked="2">
+9
+</a>
+</li>
+<li class="pagination-numerical-list-item listings-archive">
+<a href="https://www.gamesradar.com/archive/" data-component-tracked="2">
+<span>View Archive</span>
+</a>
+</li>"
