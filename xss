@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementsByClassName("list-title")[0].innerHTML = " Search results for <em style='color:red;font-size: 40px;'> YOU HAVE BEEN HACKED!!! </em>"
 
-document.getElementsByClassName("pagination-numerical-list")[0].innerHTML = 
-"<li class='pagination-numerical-list-item current-page'>
+document.getElementsByClassName("pagination-numerical-list")[0].innerHTML = "
+<li class='pagination-numerical-list-item current-page'>
 1
 </li>
 <li class='pagination-numerical-list-item'>
